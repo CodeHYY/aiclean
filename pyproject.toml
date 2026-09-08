@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aiclean"
+version = "0.1.0"
+description = "Scan and safely clean local caches left by AI coding tools (Claude Code, Cursor, Ollama, npm/uv, HuggingFace, etc)"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "aiclean contributors" }]
+keywords = ["cli", "developer-tools", "ai-tools", "disk-cleanup", "cache"]
+classifiers = [
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development",
+    "Topic :: System :: Filesystems",
+]
+
+[project.scripts]
+aiclean = "aiclean.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/heyangyu-venture/aiclean"
