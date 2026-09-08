@@ -76,6 +76,12 @@ Issues and PRs welcome — especially "please add support for X cache
 location" requests, since that's exactly the kind of real-world signal
 this project is looking for.
 
+## Support this project
+
+If `aiclean` saved you disk space, consider supporting development of
+`aiclean-pro` (scheduled auto-clean, multi-machine fleet reports, more
+targets): https://afdian.com/a/aicleandev
+
 ## License
 
 MIT
