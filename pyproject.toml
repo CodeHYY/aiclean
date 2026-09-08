@@ -24,4 +24,4 @@ classifiers = [
 aiclean = "aiclean.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/heyangyu-venture/aiclean"
+Homepage = "https://github.com/CodeHYY/aiclean"
